@@ -10,6 +10,7 @@ def Home(request):
 
 
 
+
 def index_page(request):
     return render(request, 'mobile/index.html')
 

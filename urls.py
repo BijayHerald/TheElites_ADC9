@@ -13,6 +13,7 @@ urlpatterns = [
 	path('mobile/', index_page),
 	path('mobile/form', view_add_product_form),
 	path('mobile/list', product_list),
+
 	path('mobile/save', product_image_view, name = 'image_upload'), 
 	path('mobile/search/',product_list_search),
 	path('mobile/edit/<int:ID>', update_dataform),
@@ -25,3 +26,4 @@ urlpatterns = [
 # if settings.DEBUG: 
 #         urlpatterns += static(settings.MEDIA_URL, 
 #                               document_root=settings.MEDIA_ROOT) 
+]

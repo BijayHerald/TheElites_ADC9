@@ -19,3 +19,4 @@ from .models import Category, Product
 
 # admin.site.register(Category, CategoryAdmin)
 # admin.site.register(Product, ProductAdmin)
+

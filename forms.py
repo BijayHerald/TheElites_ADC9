@@ -7,3 +7,4 @@
 # 	class Meta: 
 # 		model = Product 
 # 		fields = ['name', 'product_img'] 
+
